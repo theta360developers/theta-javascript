@@ -6,7 +6,7 @@ const body = {
     'name': 'camera.listFiles',
     'parameters': {
         "fileType": "image",
-        "entryCount": 1,
+        "entryCount": 10,
         "maxThumbSize": 0
     }
 }
@@ -21,4 +21,5 @@ const filename = data['results']['entries'][0]['name']
 
 const url = thumbnailStorageBase + filename
 
-console.log(JSON.stringify(url));
+console.log(JSON.stringify(url))
+// console.log(JSON.stringify(data, null, 4))
