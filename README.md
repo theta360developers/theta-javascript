@@ -2,6 +2,12 @@
 
 Building JavaScript examples to control RICOH THETA cameras through the WebAPI.
 
+Run the programs in this repo by using Node.js.
+
+Example:
+
+`node getinfofake.js`
+
 ### Links to API documentation
 
 * [Overview](https://github.com/ricohapi/theta-api-specs/blob/main/core/products/theta.md) - RICOH THETA Developers
