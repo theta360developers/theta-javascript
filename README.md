@@ -27,6 +27,7 @@ Make sure to run `npm init` in the directory you’re working from.
 
 So my package.json file looks like this:
 
+```
 {
   "type": "module",
   "name": "js",
@@ -39,6 +40,7 @@ So my package.json file looks like this:
   "author": "",
   "license": "ISC"
 }
+```
 
 ### Links to API documentation
 
