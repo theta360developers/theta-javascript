@@ -2,6 +2,9 @@
 
 Building JavaScript examples to control RICOH THETA cameras through the WebAPI.
 
+## Guidelines for contributing to this repo
+Contributions very welcome. If you commit a .js file, it must be runnable as-is.
+
 Run the programs in this repo by using Node.js.
 
 Example:
