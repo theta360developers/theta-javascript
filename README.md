@@ -3,6 +3,7 @@
 Building JavaScript examples to control RICOH THETA cameras through the WebAPI.
 
 ## Guidelines for contributing to this repo
+
 Contributions very welcome. If you commit a .js file, it must be runnable as-is.
 
 Run the programs in this repo by using Node.js.
@@ -30,7 +31,7 @@ Make sure to run `npm init` in the directory you’re working from.
 
 So my package.json file looks like this:
 
-```
+```javascript
 {
   "type": "module",
   "name": "js",
