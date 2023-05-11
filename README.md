@@ -59,4 +59,7 @@ So my package.json file looks like this:
 As the original fake-theta from RICOH only supplies a single image, Oppkey built
 a fake-storage server and modified `camera.listFiles` to show URLs with RICOH THETA
 X 11K images. Additional information on fake-theta with Oppkey modifications is here:
-[https://theta360developers.github.io/sdk/](https://theta360developers.github.io/sdk/)
+[https://theta360developers.github.io/sdk/](https://theta360developers.github.io/sdk/).
+
+The fake-storage comes with both thumbnails and the larger 11K images from the THETA X.
+When possible, test functionality with the thumbnails.
