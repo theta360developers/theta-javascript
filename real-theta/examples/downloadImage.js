@@ -1,4 +1,6 @@
 // from listFiles
+import {get} from 'http'
+import { createWriteStream } from 'fs';
 
 const body = {
     'name': 'camera.listFiles',
@@ -15,10 +17,11 @@ const response = await fetch('http://192.168.1.1/osc/commands/execute',
     headers: {'Content-Type': 'application/json'}
 });
 const data = await response.json();
-const fileUrl = data['results']['entries'][0]["fileUrl"] + "type=thumb";
+const fileUrl = data['results']['entries'][0]["fileUrl"];
+const filename = data['results']['entries'][0]["name"] 
 
-import {get} from 'https'
-import { createWriteStream } from 'fs';
 
-// get(fileUrl, resp => resp.pipe(createWriteStream(filename)));
+
+get(fileUrl, resp => resp.pipe(createWriteStream(filename)));
+console.log(`\ndownloading ${filename} from`);
 console.log(fileUrl);
