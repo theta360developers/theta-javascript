@@ -12,4 +12,6 @@ const response = await fetch('https://fake-theta.vercel.app/osc/commands/execute
 });
 const data =  await response.json();
 
-console.log(JSON.stringify(data,null,4));
+const prettyData = JSON.stringify(data,null,4)
+
+console.log(prettyData);
