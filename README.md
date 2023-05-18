@@ -6,11 +6,15 @@ Building JavaScript examples to control RICOH THETA cameras through the WebAPI.
 
 Contributions very welcome. If you commit a .js file, it must be runnable as-is.
 
+It must use ES Modules. As of ES6 (ES2015), JavaScript supports a native module format called ES Modules, or ECMAScript Modules. This is modern way to do modules in JavaScript. This approach uses the `export` and `import` keywords, instead of the older CommonJS syntax of `module.exports` and `require`.
+
 Run the programs in this repo by using Node.js.
 
 Example:
 
-`node getinfofake.js`
+in fake-theta/protocols, run the following command.
+
+`node info.js`
 
 ### Notes
 
