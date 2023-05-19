@@ -11,6 +11,4 @@ if (process.argv.length === 2) {
 else if (process.argv[3] === 'info') {
     console.log('attempting to run info');
     info();
-} else {
-    console.error('command not supported');
-}
+} 
