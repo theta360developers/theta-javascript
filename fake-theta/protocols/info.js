@@ -1,3 +1,8 @@
+export {info};
+
+const info = async () =>  {
+
+
 const response = await fetch('https://fake-theta.vercel.app/osc/info', 
     {method: 'GET', 
     headers: {'Content-Type': 'application/json;charset=utf-8'}
@@ -6,3 +11,6 @@ const response = await fetch('https://fake-theta.vercel.app/osc/info',
 const data = await response.json();
 
 console.log(data);
+}
+
+info();
