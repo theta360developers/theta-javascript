@@ -1,7 +1,7 @@
 const body = {'name': 'camera.setOptions',
               "parameters": {
                 "options": {
-                    "_cameraControlSource": "app"
+                    "_preset": "lensbylensExposure"
         }   
     }
 }
