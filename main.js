@@ -1,5 +1,5 @@
-import { info } from './fake-theta/protocols/info.js';
-import {state} from './fake-theta/protocols/state.js';
+import { info } from './fake-theta/protocols/infoFunction.js';
+import {state} from './fake-theta/protocols/stateFunction.js';
 
 
 if (process.argv.length === 2) {
