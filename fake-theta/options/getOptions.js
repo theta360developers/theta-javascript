@@ -2,6 +2,14 @@ const body = {'name': 'camera.getOptions',
               "parameters": {
                     "optionNames": [
                         "_filter",
+                        "dateTimeZone",
+                        "fileFormat",
+                        "iso",
+                        "isoAutoHighLimit",
+                        "shutterSpeed",
+                        "_shutterVolume",
+                        "_powerSaving",
+                        "sleepDelay"
         ]					
     }
 }
@@ -14,4 +22,6 @@ const response = await fetch('https://fake-theta.vercel.app/osc/commands/execute
 
 const data =  await response.json();
 
-console.log(data);
+const prettyData = JSON.stringify(data,null,4)
+
+console.log(prettyData);
