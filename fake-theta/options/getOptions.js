@@ -9,7 +9,10 @@ const body = {'name': 'camera.getOptions',
                         "shutterSpeed",
                         "_shutterVolume",
                         "_powerSaving",
-                        "sleepDelay"
+                        "sleepDelay",
+                        "offDelay",
+                        "captureMode",
+                        "videoStitching"
         ]					
     }
 }
