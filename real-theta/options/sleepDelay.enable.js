@@ -1,12 +1,12 @@
 const body = {'name': 'camera.setOptions',
               "parameters": {
                 "options": {
-                    "offDelay": 600
+                    "sleepDelay": 60
         }   
     }
 }
 
-const response = await fetch('https://fake-theta.vercel.app/osc/commands/execute', 
+const response = await fetch('http://192.168.1.1/osc/commands/execute', 
 	{method: 'POST', 
 	body: JSON.stringify(body),
 	headers: {'Content-Type': 'application/json'}
