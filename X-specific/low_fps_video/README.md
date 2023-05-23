@@ -47,14 +47,21 @@ Focal Length                    : 1.4 mm
 
 I saw a heat warning sign after 20 minutes.
 
-![heat warning](readme_assets/camera_heat.png)
+![heat warning at 24 minutes](readme_assets/camera_heat.png)
 
 This did not affect the recording.
 
 The warning sign went away.  I tested the camera at night and the air
 temperature got cooler.
 
-![no warning](readme_assets/camera_no_warning.png)
+![no warning at 55 minutes](readme_assets/camera_no_warning.png)
 
-Hoping for a 2 hour test.  :-)
+## 2 hour test
 
+4.3GB in size.
+
+![2 hour video](readme_assets/two_hour.png)
+
+Video plays with no problem.  Navigation works.
+
+![2 hour playing](readme_assets/two_hour_playing.png)
