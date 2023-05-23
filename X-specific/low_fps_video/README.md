@@ -42,3 +42,19 @@ Avg Bitrate                     : 5.57 Mbps
 Rotation                        : 0
 Focal Length                    : 1.4 mm
 ```
+
+## Heat
+
+I saw a heat warning sign after 20 minutes.
+
+![heat warning](readme_assets/camera_heat.png)
+
+This did not affect the recording.
+
+The warning sign went away.  I tested the camera at night and the air
+temperature got cooler.
+
+![no warning](readme_assets/camera_no_warning.png)
+
+Hoping for a 2 hour test.  :-)
+
