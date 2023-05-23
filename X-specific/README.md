@@ -13,6 +13,7 @@ THETA X API differs from the Z1 and SC2 in these ways:
 * differences in state error code, _cameraError
 * [_powerSaving](https://github.com/ricohapi/theta-api-specs/blob/main/theta-web-api-v2.1/options/_power_saving.md)
 * [_topBottomCorrectionRotation](https://github.com/ricohapi/theta-api-specs/blob/main/theta-web-api-v2.1/options/_top_bottom_correction_rotation.md)
+* [_maxRecordableTime](https://github.com/ricohapi/theta-api-specs/blob/main/theta-web-api-v2.1/options/_max_recordable_time.md)
 
 ## Other
 

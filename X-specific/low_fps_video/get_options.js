@@ -2,7 +2,12 @@ const body = {'name': 'camera.getOptions',
               "parameters": {
                     "optionNames": [
                         "fileFormat",
-                        "_bitrate"
+                        "_bitrate",
+                        "_maxRecordableTime",
+                        "videoStitching",
+                        "sleepDelay",
+                        "offDelay"
+
         ]					
     }
 }
@@ -15,4 +20,4 @@ const response = await fetch('http://192.168.1.1/osc/commands/execute',
 
 const data =  await response.json();
 
-console.log(data);
+console.log(JSON.stringify(data, null, '  '));
