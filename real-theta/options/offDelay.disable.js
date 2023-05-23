@@ -1,9 +1,7 @@
-// Not sure of the value to disable off delay?
-
 const body = {'name': 'camera.setOptions',
               "parameters": {
                 "options": {
-                    "offDelay": 0
+                    "offDelay": 65535
         }   
     }
 }

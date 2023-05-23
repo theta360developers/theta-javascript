@@ -3,7 +3,7 @@
 const body = {'name': 'camera.setOptions',
               "parameters": {
                 "options": {
-                    "offDelay": 60
+                    "offDelay": 600
         }   
     }
 }
