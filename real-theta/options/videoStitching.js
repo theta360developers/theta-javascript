@@ -1,5 +1,3 @@
-// COMMAND DEVELOPMENT STILL IN PROGRESS
-
 const body = {'name': 'camera.setOptions',
               "parameters": {
                 "options": {
