@@ -1,23 +1,22 @@
 const body = {'name': 'camera.getOptions',
               "parameters": {
                     "optionNames": [
-                        "_filter",
-                        "dateTimeZone",
-                        "fileFormat",
+                        "videoStitching",
                         "iso",
                         "isoAutoHighLimit",
-                        "shutterSpeed",
+                        "dateTimeZone",
                         "_shutterVolume",
-                        "_powerSaving",
                         "sleepDelay",
-                        "offDelay",
                         "captureMode",
-                        "videoStitching"
+                        "fileFormat",
+                        "offDelay",
+                        "shutterSpeed",
+                        "_powerSaving"
         ]					
     }
 }
 
-const response = await fetch('https://fake-theta.vercel.app/osc/commands/execute', 
+const response = await fetch('http://192.168.1.1/osc/commands/execute', 
 	{method: 'POST', 
 	body: JSON.stringify(body),
 	headers: {'Content-Type': 'application/json'}

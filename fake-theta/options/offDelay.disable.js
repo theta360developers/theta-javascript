@@ -1,7 +1,7 @@
 const body = {'name': 'camera.setOptions',
               "parameters": {
                 "options": {
-                    "videoStitching": "none"
+                    "offDelay": 65535
         }   
     }
 }
